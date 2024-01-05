@@ -1,7 +1,7 @@
 var uauth = {};
 
-uauth.url = "https://binbashbanana.github.io/webretro/uauth/"; // url to use for uauth. must have cross-domain support, a trailing slash, and cannot be cross-origin isolated.
-uauth.origins = ["http://localhost:8000", "http://localhost:8001", "https://binbashbanana.github.io"]; // valid origins for the response
+uauth.url = "https://grubbyplaya.github.io/webretro/uauth/"; // url to use for uauth. must have cross-domain support, a trailing slash, and cannot be cross-origin isolated.
+uauth.origins = ["http://localhost:8000", "http://localhost:8001", "https://grubbyplaya.github.io"]; // valid origins for the response
 uauth.selfSrc = document.currentScript.src;
 uauth.bc = new BroadcastChannel("uauth");
 uauth.log = function(w, ts) {
